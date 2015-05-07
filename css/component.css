@@ -637,7 +637,7 @@ the right position for the arrow
 
 /* grid item */
 .cbp-ig-grid li {
-	width: 33%;
+	width: 33.333%;
 	float: left;
 	height: 420px;
 	text-align: center;

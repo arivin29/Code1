@@ -169,11 +169,22 @@ a:hover {
 	-webkit-font-smoothing: antialiased;
 }
 
-h1.judul-servie {
-    padding-bottom: 50px;
-    padding-top: 30px;
+.judul-servie {
+    margin:0;
     text-align: center;
+	
 }
+
+h2.judul-servie{
+	margin-bottom:90px;
+	
+	}
+	
+h1.judul-servie{
+	margin-top:50px;
+	
+	
+	}
 
 .container > header nav .bp-icon:after {
 	position: absolute;
