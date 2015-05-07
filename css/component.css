@@ -507,6 +507,32 @@ the right position for the arrow
 		min-height: 12em;
 	}
 	
+	.footer-menu > li {
+		float: right;
+		font-size: 18px;
+		list-style: outside none none;
+		padding: 10px;
+	}
+	
+@font-face {
+    font-family: 'si';
+    src: url('../fonts/socicon/socicon.eot');
+    src: url('../fonts/socicon/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/socicon/socicon.woff') format('woff'),
+         url('../fonts/socicon/socicon.ttf') format('truetype'),
+         url('../fonts/socicon/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(../fonts/socicon/socicon.svg) format(svg);
+    }
+}
+
 .soc {
     overflow:hidden;
     margin:0; padding:0;
@@ -536,10 +562,10 @@ the right position for the arrow
     display:block;
     position: relative;
     z-index: 1;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    font-size: 44px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 27px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -558,6 +584,12 @@ the right position for the arrow
 .soc-twitter:before {
     content:'a';
 }
+.soc-instagram {
+    background-color: #9c7c6e;
+}
+.soc-instagram:before {
+    content:'x';
+}
 .soc-facebook {
     background-color: #3e5b98;
 }
@@ -570,25 +602,8 @@ the right position for the arrow
 .soc-google:before {
     content:'c';
 }
-.soc-pinterest {
-    background-color: #c92619;
-}
-.soc-pinterest:before {
-    content:'d';
-}
-.soc-linkedin {
-    background-color: #3371b7;
-}
-.soc-linkedin:before {
-    content:'j';
-}
-.soc-rss {
-    background-color: #f26109;
-}
-.soc-rss:before {
-    content:',';
-}
-	
+
+
 	 
 @media screen and (max-width: 73.5em) {
 	.box-stagah {
