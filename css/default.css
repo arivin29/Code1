@@ -33,6 +33,15 @@ a:hover {
 	color: #000;
 }
 
+#home {
+    background: url("../images/work3.jpg") repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+}
+.fixeds{
+	position:fixed !important;
+	top:0 !important;
+	bottom:auto !important;
+}
+
 .container > header {
 	width: 90%;
 	max-width: 69em;
