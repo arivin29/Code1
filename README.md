@@ -1,8 +1,3 @@
-# Code1
-Codeigniter CMS
+Created by Codrops
 
-<<<<<<< HEAD
-test kaduo
-=======
-test patamo
->>>>>>> origin/master
+Please read more about our license here: http://tympanus.net/codrops/licensing/ 
