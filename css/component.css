@@ -484,10 +484,11 @@ the right position for the arrow
 	}
 	
 	#footer .full {
-		background: none repeat scroll 0 0 #47a3da;
-		
+		background: none repeat scroll 0 0 #47a3da;		
 		color: #fff;
 		display: table;
+		position: absolute;
+		z-index: 99999;
 	}
 	
 	.footer-kiri {
@@ -512,6 +513,16 @@ the right position for the arrow
 		font-size: 18px;
 		list-style: outside none none;
 		padding: 10px;
+	}
+	
+	
+	.cbp-so-section.cbp-so-animate .cbp-so-side-atas, .cbp-so-section.cbp-so-animate .cbp-so-side-right {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: transform 3s ease 0s, opacity 1s ease 0s;
+	}
+	.cbp-so-init .cbp-so-side-atas {
+		transform: translateY(80px);
 	}
 	
 @font-face {
