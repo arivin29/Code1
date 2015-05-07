@@ -162,6 +162,12 @@ a:hover {
 	-webkit-font-smoothing: antialiased;
 }
 
+h1.judul-servie {
+    padding-bottom: 50px;
+    padding-top: 30px;
+    text-align: center;
+}
+
 .container > header nav .bp-icon:after {
 	position: absolute;
 	top: 0;
@@ -215,6 +221,8 @@ a:hover {
 	.container > header > span {
 		text-indent: 30px;
 	}
+	
+	
 }
 
 @media screen and (max-height: 25.25em), screen and (max-width: 44.3125em) {
