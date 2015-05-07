@@ -43,14 +43,16 @@ a:hover {
 }
 
 .container {
-	height: 100%;
+	
 	position: relative;
+}
+.home {	
+	height: 100%;
 }
 
 .filler-above,
 .filler-below {
-	width: 100%;
-	height: 100%;
+	width: 100%; 
 	position: absolute;
 	background: #f0f0f0;
 }
